@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Digital</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container" role="navigation" aria-label="Menu principal">
+        <div class="nav-wrapper">
+            <div class="nav-header">
+                <a href="index.html" class="logo" aria-label="Big Ben Café - Accueil">HASHTAG</a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="index.html" onclick="closeMenu()" role="menuitem">Accueil</a></li>
+                    <li role="none"><a href="pages/petit dejeuner.html" onclick="closeMenu()" role="menuitem">Petit Déjeuner</a></li>
+                    <li role="none"><a href="pages/boissons.html" onclick="closeMenu()" role="menuitem">Cafe & Boissons</a></li>
+                    <li role="none"><a href="pages/smoothies.html" onclick="closeMenu()" role="menuitem">Drinks & Smoothies</a></li>
+                    <li role="none"><a href="pages/pizza.html" onclick="closeMenu()" role="menuitem">Pizza</a></li>
+                    <li role="none"><a href="pages/sandwiches-wraps.html" onclick="closeMenu()" role="menuitem">Sandwiches</a></li>
+                    <li role="none"><a href="pages/crepes-galettes.html" onclick="closeMenu()" role="menuitem">Crêpes</a></li>
+                    <li role="none"><a href="pages/waffles-pancakes.html" onclick="closeMenu()" role="menuitem">Waffles & Pancakes</a></li>
+                    <li role="none"><a href="pages/desserts.html" onclick="closeMenu()" role="menuitem">Desserts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-clock" role="img" aria-label="Horloge"><img src="" alt=""></div>
+            <h1>CAFE RESTO HASHTAG</h1>
+            <p class="subtitle">Menu Digital - Saveurs Authentiques</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="category-grid">
+
+            <a href="pages/petit dejeuner.html" class="category-card">
+                <div class="category-icon">🥐🥞</div>
+                <h2>Petit-Dejeuner</h2>
+                <p>Démarrez votre journée avec nos cafés, crêpes, œufs et viennoiseries fraîches</p>
+            </a>
+
+            <!-- Catégorie Boissons -->
+            <a href="pages/boissons.html" class="category-card">
+                <div class="category-icon">☕🍹</div>
+                <h2>Cafe & Boissons</h2>
+                <p>Dégustez nos jus frais, cocktails fruités, cafés savoureux , boissons glacées et chicha, préparés avec soin pour chaque moment.</p>
+            </a>
+
+            <a href="pages/smoothies.html" class="category-card">
+                <div class="category-icon">🥤🍫</div>
+                <h2>Drinks & Smoothies</h2>
+                <p>Dégustez nos chocolats chauds, milkshakes, smoothies et mojitos rafraîchissants préparés avec soin</p>
+            </a>
+
+            <!-- Catégorie Pizza -->
+            <a href="pages/pizza.html" class="category-card">
+                <div class="category-icon">🍕</div>
+                <h2>Pizza</h2>
+                <p>Découvrez nos délicieuses pizzas Barilla et spécialités italiennes faites maison</p>
+            </a>
+
+            <!-- Catégorie Sandwiches & Wraps -->
+            <a href="pages/sandwiches-wraps.html" class="category-card">
+                <div class="category-icon">🥪🌯</div>
+                <h2>Sandwiches</h2>
+                <p>Makloub, Calzoni, Panozzo, Baguettes et Tacos pour un repas rapide et savoureux</p>
+            </a>
+
+            <!-- Catégorie Crêpes & Galettes -->
+            <a href="pages/crepes-galettes.html" class="category-card">
+                <div class="category-icon">🥞</div>
+                <h2>Crêpes</h2>
+                <p>Crêpes salées ,Crêpes sucrées et omelettes , des classiques aux créations gourmandes</p>
+            </a>
+
+            <!-- Catégorie Waffles & Pancakes -->
+            <a href="pages/waffles-pancakes.html" class="category-card">
+                <div class="category-icon">🧇</div>
+                <h2>Waffles & Pancakes</h2>
+                <p>Gaufres, bubble waffles et pancakes salés ou sucrés pour toutes les envies</p>
+            </a>
+
+            <!-- Catégorie Desserts -->
+            <a href="pages/desserts.html" class="category-card">
+                <div class="category-icon">🍰🍦</div>
+                <h2>Desserts</h2>
+                <p>Pâtisseries, glaces et cheesecakes  pour terminer en douceur</p>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <h3>HASHTAG</h3>
+        <p class="hours">Ouvert tous les jours</p>
+        <p class="hours">Livraison à domicile sur demande 🚗</p>
+
+        <div class="contact-info">
+            <div class="contact-item">📞 +216 26454417</div>
+            <div class="contact-item">
+                📍 Adresse du restaurant :
+                <a style="color: aliceblue;" href="https://maps.app.goo.gl/HeT8PnU435b8o2hN6" target="_blank">cliquer ici</a>
+            </div>
+        </div>
+        <div class="social-links">
+            <p>Suivez-nous sur les réseaux sociaux</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/hashtagcaferesto" target="_blank" class="social-link" title="Facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+                <p></p>
+                <a href="https://www.instagram.com/hashtag_cafe_resto_gafsa/" target="_blank" class="social-link" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

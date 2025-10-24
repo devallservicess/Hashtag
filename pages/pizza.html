@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container" role="navigation" aria-label="Menu principal">
+        <div class="nav-wrapper">
+            <div class="nav-header">
+                <a href="../index.html" class="logo" aria-label="Big Ben Café - Accueil">HASHTAG</a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="../index.html" onclick="closeMenu()" role="menuitem">Accueil</a></li>
+                    <li role="none"><a href="petit dejeuner.html" onclick="closeMenu()" role="menuitem">Petit Déjeuner</a></li>
+                    <li role="none"><a href="boissons.html" onclick="closeMenu()" role="menuitem">Cafe & Boissons</a></li>
+                    <li role="none"><a href="smoothies.html" onclick="closeMenu()" role="menuitem">Drinks & Smoothies</a></li>
+                    <li role="none"><a href="pizza.html" onclick="closeMenu()" role="menuitem">Pizza</a></li>
+                    <li role="none"><a href="sandwiches-wraps.html" onclick="closeMenu()" role="menuitem">Sandwiches</a></li>
+                    <li role="none"><a href="crepes-galettes.html" onclick="closeMenu()" role="menuitem">Crêpes</a></li>
+                    <li role="none"><a href="waffles-pancakes.html" onclick="closeMenu()" role="menuitem">Waffles & Pancakes</a></li>
+                    <li role="none"><a href="desserts.html" onclick="closeMenu()" role="menuitem">Desserts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-clock" role="img" aria-label="Horloge"><img src="" alt=""></div>
+            <h1>Pizza</h1>
+            <p class="subtitle">Nos délicieuses pizzas faites maison</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="menu-grid">
+            <!-- Section Pizza Italienne -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://media.istockphoto.com/id/1442417585/fr/photo/personne-recevant-un-morceau-de-pizza-au-pepperoni-au-fromage.jpg?s=612x612&w=0&k=20&c=xNz2rodZQQARx16BlXTkht9E19aw4ziOMm6UOjW5DKM=')">PIZZA ITALIENNE</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Tomara(M,XL,F)</div><div class="item-description">Sauce tomate, mozzarella, oignons thon, olive, origan</div></div><div class="item-price">13.000 / 15.500 / 25.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Escalope(M,XL,F)</div><div class="item-description">Sauce tomate, mozzarella, escalope, olive, origan</div></div><div class="item-price">14.000 / 16.000 / 26.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Barilla(M,XL,F)</div><div class="item-description">Sauce blanche, mozzarella, escalope de poulet, ricotta, epinards, origan</div></div><div class="item-price">14.500 / 18.500 / 26.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Margherita</div><div class="item-description">Sauce tomate, mozzarella, basilic frais, origan</div></div><div class="item-price">14.500</div></div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Margherita</div>
+                    <div class="item-description">Sauce tomate parfumée a l'huile d'olive, mozzarella, basilic frais, tomate cerise et huile d'olive</div>
+                </div>
+                <div class="item-price">15.500</div>
+            </div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">4 Viandes(M,XL,F)</div><div class="item-description">2 Tranches turque, 2 escalopes, 2 Chawerma, 2 Pepperoni</div></div><div class="item-price">15.000 / 19.500 / 28.500</div></div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Végétarienne</div>
+                    <div class="item-description">Sauce tomate parfumée à l'huile d'olive, mozzarella, basilic frais, tomate cerise, courgettes, oignons, champignons, poivrons</div>
+                </div>
+                <div class="item-price">16.500</div>
+            </div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">PEPPERONI</div><div class="item-description">Sauce tomate, mozzarella, pepperoni, origan</div></div><div class="item-price">16.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">MISTA</div><div class="item-description">Sauce tomate, mozzarella, chorizo, pepperoni, oignons, piment vert, origan</div></div><div class="item-price">17.000</div></div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Pepperoni</div>
+                    <div class="item-description">Sauce tomate parfumée a l'huile d'olive, mozzarella, basilic frais, tomate cerise, pepperoni</div>
+                </div>
+                <div class="item-price">17.500</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Tonnara</div>
+                    <div class="item-description">Sauce tomate parfumée à l'huile d'olive, mozzarella, basilic frais, thon, olive</div>
+                </div>
+                <div class="item-price">18.500</div>
+            </div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Primavera</div><div class="item-description">Sauce tomate, blanche, mozzarella, jambon, champignons, origan</div></div><div class="item-price">19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Class</div><div class="item-description">Sauce tomate, mozzarella, thon, champignons, origan</div></div><div class="item-price">19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">RAGUSANA</div><div class="item-description">Sauce blanche, mozzarella, chorizo, pepperoni, oignons, piment vert, origan</div></div><div class="item-price">19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Giulia</div><div class="item-description">Sauce blanche, mozzarella, escalope de poulet, ricotta, epinards, tomate ceries champignons frais, origan</div></div><div class="item-price">20.000</div></div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Turgue</div>
+                    <div class="item-description">Sauce tomate parfumée à l'huile d'olive, mozzarella, basilic frais, oignons caramelisées, viande hachée et tomate cerise</div>
+                </div>
+                <div class="item-price">20.500</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Flamande</div>
+                    <div class="item-description">Crème, mozzarella, pistache jambon de dinde, ricotta, filet de huile d'olive, basilic frais</div>
+                </div>
+                <div class="item-price">21.000</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Régina</div>
+                    <div class="item-description">Sauce tomate parfumée à l'huile d'olive, mozzarella, basilic frais, jambon de dinde fumée, champignons</div>
+                </div>
+                <div class="item-price">21.500</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">4 Saisons</div>
+                    <div class="item-description">Sauce tomate parfumée à l'huile d'olive, mozzarella, basilic frais, jambon de dinde, pepperoni, thon, champignons, oignons, piment, filet de huile d'olive</div>
+                </div>
+                <div class="item-price">22.500</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Toscana</div>
+                    <div class="item-description">Sauce tomate parfumée a l'huile d'olive, mozzarella, basilic frais, viande hachée, pepperoni, oignons caramélisées, piment et tomates cerises</div>
+                </div>
+                <div class="item-price">22.500</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">5 Fromages</div>
+                    <div class="item-description">Crème, mozzarella, gorgonzola, camembert à la sortie du four, pistache, parmesan, gruyère et basilic frais</div>
+                </div>
+                <div class="item-price">26.000</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Rafaello</div>
+                    <div class="item-description">Crème mozzarella, poulet grillé, champignons, gruyère, basilic frais, ricotta, tomate cerise, épinard</div>
+                </div>
+                <div class="item-price">26.000</div>
+            </div>
+                <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Gamberi</div>
+                    <div class="item-description">Sauce pesto, Mozzarella, crevettes, ail, parmesan, citron, basilic frais</div>
+                </div>
+                <div class="item-price">27.000</div>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Saumon</div>
+                    <div class="item-description">Crème, mozzarella, saumon fumé du Norvège, basilic frais, origan, citron, noix, tomate cerise</div>
+                </div>
+                <div class="item-price">27.000</div>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <div class="item-name">Burrata</div>
+                    <div class="item-description">Sauce tomate parfumée à l'huile d'olive, jambon de dinde fumé, champignon de paris, mozzarella, basilic frais, filet de huile d'olive</div>
+                </div>
+                <div class="item-price">27.000</div>
+            </div>
+            </section>
+
+            <!-- Section Pizza Special -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('../PIZZA-4-FROMAGES.png')">PIZZA SPECIAL</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CARBONARA</div><div class="item-description">Sauce tomate, mozzarella, jambon, oeuf, gruyere, origan</div></div><div class="item-price">18.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Orientale</div><div class="item-description">Sauce tomate, mozzarella, chawerma, ceuf, piment de cayenne olive, origan</div></div><div class="item-price">18.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Turque</div><div class="item-description">Sauce tomate, mozzarella, viande hachée, piment vert, origan</div></div><div class="item-price">19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Confusa</div><div class="item-description">2 Tranches barilla, 2 Primavera, 2 Tonnara, 2 Pepperoni</div></div><div class="item-price">19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CHICAGO</div><div class="item-description">Sauce tomate, mozzarelle, viande hachée, pepperoni, oignons, sauce barbecue, origan</div></div><div class="item-price">19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">HawaiEnne</div><div class="item-description">Sauce tomate, mozzarelle, escalope, ananas, piment vert, origan</div></div><div class="item-price">19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Bacon</div><div class="item-description">Sauce tomate mozzarella, bacon roquette, tomate ceries parmesan, origan</div></div><div class="item-price">19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Mariana</div><div class="item-description">Sauce tomate, mozzarelle, chevrette, piment vert, oignons basilic origan</div></div><div class="item-price">19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">4 FROMAGE</div><div class="item-description">Sauce blanche , tomate, mozzarella, gorgonzolla, parmesan, gruyere, origan</div></div><div class="item-price">22.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Salmone</div><div class="item-description">Sauce blanche, mozzarella, saumon fume, tomate ceries, roquette origan</div></div><div class="item-price">23.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Burrata</div><div class="item-description">Sauce tomate, mozzarella, roquette, burrata, tomate ceries parmesan, origan</div></div><div class="item-price">24.000</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">Pizza hashtag</div><div class="item-description">Double patte, 4 Suplements+frite</div></div><div class="item-price">27.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza metre</div></div><div class="item-price">47.000</div></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <h3>HASHTAG</h3>
+        <p class="hours">Ouvert tous les jours</p>
+        <p class="hours">Livraison à domicile sur demande 🚗</p>
+
+        <div class="contact-info">
+            <div class="contact-item">📞 +216 26454417</div>
+            <div class="contact-item">
+                📍 Adresse du restaurant :
+                <a style="color: aliceblue;" href="https://maps.app.goo.gl/HeT8PnU435b8o2hN6" target="_blank">cliquer ici</a>
+            </div>
+        </div>
+        <div class="social-links">
+            <p>Suivez-nous sur les réseaux sociaux</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/hashtagcaferesto" target="_blank" class="social-link" title="Facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+                <p></p>
+                <a href="https://www.instagram.com/hashtag_cafe_resto_gafsa/" target="_blank" class="social-link" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

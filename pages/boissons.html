@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Digital</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container" role="navigation" aria-label="Menu principal">
+        <div class="nav-wrapper">
+            <div class="nav-header">
+                <a href="../index.html" class="logo" aria-label="Big Ben Café - Accueil">HASHTAG</a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="../index.html" onclick="closeMenu()" role="menuitem">Accueil</a></li>
+                    <li role="none"><a href="petit dejeuner.html" onclick="closeMenu()" role="menuitem">Petit Déjeuner</a></li>
+                    <li role="none"><a href="boissons.html" onclick="closeMenu()" role="menuitem">Cafe & Boissons</a></li>
+                    <li role="none"><a href="smoothies.html" onclick="closeMenu()" role="menuitem">Drinks & Smoothies</a></li>
+                    <li role="none"><a href="pizza.html" onclick="closeMenu()" role="menuitem">Pizza</a></li>
+                    <li role="none"><a href="sandwiches-wraps.html" onclick="closeMenu()" role="menuitem">Sandwiches</a></li>
+                    <li role="none"><a href="crepes-galettes.html" onclick="closeMenu()" role="menuitem">Crêpes</a></li>
+                    <li role="none"><a href="waffles-pancakes.html" onclick="closeMenu()" role="menuitem">Waffles & Pancakes</a></li>
+                    <li role="none"><a href="desserts.html" onclick="closeMenu()" role="menuitem">Desserts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-clock" role="img" aria-label="Horloge"><img src="" alt=""></div>
+            <h1>Cafe & Boissons</h1>
+            <p class="subtitle">Nos délicieuses boissons chaudes et froides</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="menu-grid">
+            <!-- Section Café -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://dww3ueizok6z0.cloudfront.net/food/banner/11565-88e9ec0b28a500086bee69a6c4c3a7c0f147fe27')">CAFÉ</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Express</div></div><div class="item-price">3.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Americain</div></div><div class="item-price">3.800</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Cappuccin</div></div><div class="item-price">3.800</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Macchiato</div></div><div class="item-price">3.800</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Chocolat au lait</div></div><div class="item-price">4.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Nescafé au lait</div></div><div class="item-price">4.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Café Crème</div></div><div class="item-price">4.200</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Café Nestlé</div></div><div class="item-price">4.800</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">café turc</div></div><div class="item-price">5.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">cappuccino</div></div><div class="item-price">6.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Café aromatisé</div><div class="item-description">(caramel, noisette, vanile)</div></div><div class="item-price">6.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">café latte</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">cappuccino chantillé</div></div><div class="item-price">7.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">ice coffee americano</div></div><div class="item-price">8.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">café liégeois</div></div><div class="item-price">8.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Café affigato</div></div><div class="item-price">9.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Iced Coffee Vanille</div></div><div class="item-price">11.800</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Iced Coffee Hashtag</div><div class="item-description">Nutella ou speculos</div></div><div class="item-price">13.500</div></div>
+            </section>
+
+            <!-- Section Jus -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://media.istockphoto.com/id/1406625741/fr/photo/smoothies-et-fruits-frais.jpg?s=612x612&w=0&k=20&c=BuVv-CxVd4R9dvn_0ppUVBcpjwcqxSTa9V-Yupdnrvs=')">JUS</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CITRONNADE</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">ORANGE</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CITRONNADE À LAMENTHE</div></div><div class="item-price">7.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">FRAISE</div></div><div class="item-price">9.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">KIWI</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">JUS BANANE</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CITRONNADE AUX AMANDES</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Citron + Boule de Glace</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Detox Carotte Orange</div></div><div class="item-price">10.200</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Detox Kiwi Comcombre</div></div><div class="item-price">10.200</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Jus de Pomme</div></div><div class="item-price">10.200</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Jus de fruits</div></div><div class="item-price">11.900</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Citron Amande + Boule d...</div></div><div class="item-price">14.900</div></div>
+            </section>
+
+            <!-- Section Cocktails -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://static.vecteezy.com/ti/photos-gratuite/t1/24086503-mixeur-avec-fruit-en-volant-isole-sur-noir-arriere-plan-fruit-jus-et-eclaboussure-generatif-une-photo.jpg')">COCKTAILS</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">POMME, CITRON, MENTHE</div></div><div class="item-price">11.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Cocktail Fresh</div><div class="item-description">Banane, Fraise</div></div><div class="item-price">11.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Cocktail Caraïbos</div><div class="item-description">Banane, Kiwi</div></div><div class="item-price">11.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Cocktail Monster</div><div class="item-description">Fraise, Banane, Boule de Glace, Vanille</div></div><div class="item-price">12.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">BANANE, POMME, DATTES, FRUITS SECS</div></div><div class="item-price">14.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Cocktail Chups</div><div class="item-description">Datte, Banane, Fruits secs, Miel, Epinards</div></div><div class="item-price">14.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Cocktail Adios</div><div class="item-description">Datte, Banane, Granola, Beurre de Cacahuette</div></div><div class="item-price">14.500</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">Cocktail Beuse</div><div class="item-description">Fruit, Fruits secs Mousse, Vanille, Kinder Bu...</div></div><div class="item-price">16.500</div></div>
+            </section>
+
+            <!-- Section Autres Boissons -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://media.istockphoto.com/id/477567554/fr/photo/glac%C3%A9e-boissons-fra%C3%AEches.jpg?s=612x612&w=0&k=20&c=jFgAYcd5WqY-9ETfzhOU0IhztFLlAMAb7okVLhAsWJY=')">BOISSONS</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">eau 0.5l</div></div><div class="item-price">1.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Eau 1L</div></div><div class="item-price">2.800</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">soda au choix</div></div><div class="item-price">3.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Schweeps</div></div><div class="item-price">4.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Orangina</div></div><div class="item-price">4.000</div></div>
+                
+                <div class="menu-item"><div class="item-info"><div class="item-name">boisson énergétique</div></div><div class="item-price">8.000</div></div>
+            </section>
+
+            <!-- Section Thé -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://media.istockphoto.com/id/912302488/photo/tea-freshly-brewed-in-a-glass-cup-and-some-herbs-on-a-dark-rustic-wooden-background-healthy.jpg?s=612x612&w=0&k=20&c=oHN0_NweGer9YqzX5YJce7EFkNXaJ8SbgvpCm71Gc-0=')">THÉ</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Thé Vert</div></div><div class="item-price">3.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">infusion</div></div><div class="item-price">3.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Iced tea</div><div class="item-description">Pêche, Framboise au citron</div></div><div class="item-price">6.300</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Thé aux amandes</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Thé pistache</div></div><div class="item-price">8.500</div></div>
+            </section>
+
+            <!-- Section Chicha -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://cnct.fr/wp-content/uploads/2021/08/AdobeStock_202896712-1024x683.jpeg')">CHICHA</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">menthe</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">cheik many</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">pomme</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">love</div></div><div class="item-price">7.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">raisins et menthe</div></div><div class="item-price">7.000</div></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <h3>HASHTAG</h3>
+        <p class="hours">Ouvert tous les jours</p>
+        <p class="hours">Livraison à domicile sur demande 🚗</p>
+
+        <div class="contact-info">
+            <div class="contact-item">📞 +216 26454417</div>
+            <div class="contact-item">
+                📍 Adresse du restaurant :
+                <a style="color: aliceblue;" href="https://maps.app.goo.gl/HeT8PnU435b8o2hN6" target="_blank">cliquer ici</a>
+            </div>
+        </div>
+        <div class="social-links">
+            <p>Suivez-nous sur les réseaux sociaux</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/hashtagcaferesto" target="_blank" class="social-link" title="Facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+                <p></p>
+                <a href="https://www.instagram.com/hashtag_cafe_resto_gafsa/" target="_blank" class="social-link" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

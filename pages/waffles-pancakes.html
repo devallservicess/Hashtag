@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Ben Café - Waffles & Pancakes</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container" role="navigation" aria-label="Menu principal">
+        <div class="nav-wrapper">
+            <div class="nav-header">
+                <a href="../index.html" class="logo" aria-label="Big Ben Café - Accueil">HASHTAG</a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="../index.html" onclick="closeMenu()" role="menuitem">Accueil</a></li>
+                    <li role="none"><a href="petit dejeuner.html" onclick="closeMenu()" role="menuitem">Petit Déjeuner</a></li>
+                    <li role="none"><a href="boissons.html" onclick="closeMenu()" role="menuitem">Cafe & Boissons</a></li>
+                    <li role="none"><a href="smoothies.html" onclick="closeMenu()" role="menuitem">Drinks & Smoothies</a></li>
+                    <li role="none"><a href="pizza.html" onclick="closeMenu()" role="menuitem">Pizza</a></li>
+                    <li role="none"><a href="sandwiches-wraps.html" onclick="closeMenu()" role="menuitem">Sandwiches</a></li>
+                    <li role="none"><a href="crepes-galettes.html" onclick="closeMenu()" role="menuitem">Crêpes</a></li>
+                    <li role="none"><a href="waffles-pancakes.html" onclick="closeMenu()" role="menuitem">Waffles & Pancakes</a></li>
+                    <li role="none"><a href="desserts.html" onclick="closeMenu()" role="menuitem">Desserts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-clock" role="img" aria-label="Horloge"><img src="" alt=""></div>
+            <h1>Waffles & Pancakes</h1>
+            <p class="subtitle">Nos délicieuses gaufres et pancakes</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="menu-grid">
+            <!-- Section Gaufres Salées -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('../img.png')">GAUFRES SALÉES</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">JAMBON , FROMAGE</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">PEPPERONI , FROMAGE</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">OVERDOSE</div><div class="item-description">jambon, poulet, pepironi, gruière</div></div><div class="item-price">17.000</div></div>
+            </section>
+
+            <!-- Section Gaufres Sucrées -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://assets.afcdn.com/recipe/20200504/110521_w1024h768c1cx960cy540cxt0cyt0cxb1920cyb1080.jpg')">GAUFRES SUCRÉES</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CHOCOLAT</div></div><div class="item-price">9.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">NUTELLA</div></div><div class="item-price">11.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CHOCO,BANANE</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">ORÉO</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">SPÉCULOOS</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">NOISETTE</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">NUTELLA,BANANE</div></div><div class="item-price">14.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">NUTELLA, FRUITS SECS</div></div><div class="item-price">14.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">3 CHOCOS, FRUITS SECS</div></div><div class="item-price">15.000</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">HASHTAG</div><div class="item-description">3 choco's banane, fruits secs, sauce pistache, oréo ou spéculoso</div></div><div class="item-price">18.000</div></div>
+            </section>
+
+            <!-- Section Bubble Waffle -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://static.vecteezy.com/system/resources/previews/019/035/707/large_2x/waffles-on-black-background-photo.jpg')">BUBBLE WAFFLE</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">chocolat</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">nutella</div></div><div class="item-price">11.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">miel, fruits sec</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">chocolat, banane</div></div><div class="item-price">12.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">nutella, banane</div></div><div class="item-price">13.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">nutella, fruits sec</div></div><div class="item-price">13.000</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">hastitag</div><div class="item-description">3 chocolats, fruits sec, fruits de saison</div></div><div class="item-price">15.000</div></div>
+            </section>
+
+            <!-- Section Pancake -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://www.bhg.com/thmb/B1Mbx1q9AgIEJ8PbQpPq0QPs820=/4000x0/filters:no_upscale():strip_icc()/bhg-recipe-pancakes-waffles-pancakes-Hero-01-372c4cad318d4373b6288e993a60ca62.jpg')">PANCAKE</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">chocolat</div></div><div class="item-price">9.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">chocolat, banane</div></div><div class="item-price">11.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">nutella</div></div><div class="item-price">11.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">miel, fruits sec</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">nutella, banane</div></div><div class="item-price">13.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">nutella, fruits sec</div></div><div class="item-price">13.000</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">Hashtag</div></div><div class="item-price">15.000</div></div>
+            </section>
+
+            <!-- Section Boule Waffle -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://static.vecteezy.com/system/resources/previews/019/035/707/large_2x/waffles-on-black-background-photo.jpg')">BOULE WAFFLE</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name"></div></div><div class="item-price" style="background-color:#fff; border:2px solid #e0e0e0; border-radius:50px; padding:10px 30px; font-size:1.2rem; font-weight:600; color:#2b3a33; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center; font-size:0.95rem;">14 BOULES / 21 BOULES</div></div>
+                
+                <div class="menu-item"><div class="item-info"><div class="item-name">NUTELLA</div></div><div class="item-price">12.000 / 17.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">SPECULOOS</div><div class="item-description">(speculoos pate + speculoos bescuit + caramel)</div></div><div class="item-price">13.000 / 18.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">KINDER MAXI</div><div class="item-description">(chocolat + fruit sec)</div></div><div class="item-price">13.500 / 19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">KINDER BUENO</div><div class="item-description">(nutella + noisette + kinder)</div></div><div class="item-price">13.500 / 18.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">OREO</div><div class="item-description">(nutella + oreo)</div></div><div class="item-price">13.500 / 17.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">SPECULA</div><div class="item-description">(nutella + speculoso)</div></div><div class="item-price">13.500 / 19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">MILKA</div><div class="item-description">(nutella + chocolate blanc + milka)</div></div><div class="item-price">14.000 / 19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">BANANE</div><div class="item-description">(nutella + banane + noisette)</div></div><div class="item-price">14.500 / 19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">RAFAELLO</div><div class="item-description">(chocolat blanc + rafaello + amande)</div></div><div class="item-price">14.500 / 19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">FERRERO ROCHER</div><div class="item-description">(nutella + noisette + ferreno rocher)</div></div><div class="item-price">14.500 / 19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">SNICKERS</div><div class="item-description">(nutella + caramel + noisette + snikers)</div></div><div class="item-price">15.000 / 19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">BLACKY</div><div class="item-description">(nutella + banane + fruit sec)</div></div><div class="item-price">15.000/19.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">FRUITELLA</div><div class="item-description">(nutella + 3 fruit de saison)</div></div><div class="item-price">15.000 / 20.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">PISTACHIO</div><div class="item-description">(chocolat blanc + pistache pate + pistache)</div></div><div class="item-price">18.000 / 24.500</div></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <h3>HASHTAG</h3>
+        <p class="hours">Ouvert tous les jours</p>
+        <p class="hours">Livraison à domicile sur demande 🚗</p>
+
+        <div class="contact-info">
+            <div class="contact-item">📞 +216 26454417</div>
+            <div class="contact-item">
+                📍 Adresse du restaurant :
+                <a style="color: aliceblue;" href="https://maps.app.goo.gl/HeT8PnU435b8o2hN6" target="_blank">cliquer ici</a>
+            </div>
+        </div>
+        <div class="social-links">
+            <p>Suivez-nous sur les réseaux sociaux</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/hashtagcaferesto" target="_blank" class="social-link" title="Facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+                <p></p>
+                <a href="https://www.instagram.com/hashtag_cafe_resto_gafsa/" target="_blank" class="social-link" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" style="width:28px; vertical-align:middle;"> 
+                    <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

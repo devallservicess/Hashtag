@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Digital</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container" role="navigation" aria-label="Menu principal">
+        <div class="nav-wrapper">
+            <div class="nav-header">
+                <a href="../index.html" class="logo" aria-label="Big Ben Café - Accueil">HASHTAG</a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="../index.html" onclick="closeMenu()" role="menuitem">Accueil</a></li>
+                    <li role="none"><a href="petit dejeuner.html" onclick="closeMenu()" role="menuitem">Petit Déjeuner</a></li>
+                    <li role="none"><a href="boissons.html" onclick="closeMenu()" role="menuitem">Cafe & Boissons</a></li>
+                    <li role="none"><a href="smoothies.html" onclick="closeMenu()" role="menuitem">Drinks & Smoothies</a></li>
+                    <li role="none"><a href="pizza.html" onclick="closeMenu()" role="menuitem">Pizza</a></li>
+                    <li role="none"><a href="sandwiches-wraps.html" onclick="closeMenu()" role="menuitem">Sandwiches</a></li>
+                    <li role="none"><a href="crepes-galettes.html" onclick="closeMenu()" role="menuitem">Crêpes</a></li>
+                    <li role="none"><a href="waffles-pancakes.html" onclick="closeMenu()" role="menuitem">Waffles & Pancakes</a></li>
+                    <li role="none"><a href="desserts.html" onclick="closeMenu()" role="menuitem">Desserts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-clock" role="img" aria-label="Horloge"><img src="" alt=""></div>
+            <h1>Crêpes & Galettes</h1>
+            <p class="subtitle">Nos délicieuses crêpes salées et sucrées</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="menu-grid">
+
+            <!-- Section Crêpes Salées -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://www.maisonloste.fr/sites/maisonloste/files/inline-images/CREPE%20SALEE%20JAMBON%20DE%20PARME%20660.jpg')">CRÊPES SALÉES</h2>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crêpe pepperoni</div>
+                        <div class="item-description">Pepperoni, mozza, sauce marinara, basilic sec, sauce...</div>
+                    </div>
+                    <div class="item-price">13.000</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crêpe pizza</div>
+                        <div class="item-description">Thon, mozza, sauce marinara, olives, persil</div>
+                    </div>
+                    <div class="item-price">13.000</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crêpe Sicile</div>
+                        <div class="item-description">Jambon de bœuf fumé, mozza, sauce pesto, légum...</div>
+                    </div>
+                    <div class="item-price">14.000</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crepe Bombay</div>
+                        <div class="item-description">Poulet curry, mozza, champignon grillé, légume...</div>
+                    </div>
+                    <div class="item-price">14.000</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crêpe Sicile + gruyère</div>
+                        <div class="item-description">Jambon de bœuf fumé, gruyère, sauce pesto, légu...</div>
+                    </div>
+                    <div class="item-price">15.500</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crêpe bombay + gruyère</div>
+                        <div class="item-description">Poulet curry, gruyère, champignon grillé, légume...</div>
+                    </div>
+                    <div class="item-price">16.000</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crêpe cheesy</div>
+                        <div class="item-description">Mozza, gruyère, raclette, fromage blanc, sauce blanc...</div>
+                    </div>
+                    <div class="item-price">16.500</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Crêpe texas + gruyère</div>
+                        <div class="item-description">Viande hachée, gruyère, légumes grillés, persil, émi...</div>
+                    </div>
+                    <div class="item-price">16.500</div>
+                </div>
+            </section>
+
+            <!-- Section Crêpes Sucrées -->
+            <section class="menu-section">
+                <h2 class="section-title" style="background-image: url('https://www.shutterstock.com/image-photo/french-crepes-delicious-chocolate-600nw-2564438119.jpg')">CRÊPES SUCRÉES</h2>
+
+                <div class="menu-item"><div class="item-info"><div class="item-name">CREPE CHOCOLAT</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe blacky simple</div><div class="item-description">Choco noir, pépite de chocolat belge 72</div></div><div class="item-price">10.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe nutella simple</div><div class="item-description">Nutella</div></div><div class="item-price">11.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe blacky</div><div class="item-description">Choco noir, noisettes, pépite de chocolat belge 72</div></div><div class="item-price">12.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CREPE CHOCOLAT FRUIT SEC</div></div><div class="item-price">12.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe spécula</div><div class="item-description">Nutella, spéculoos, caramel beurre salé</div></div><div class="item-price">13.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CREPE MILKA, OREO</div></div><div class="item-price">14.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CREPE RAFAELLO</div></div><div class="item-price">14.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CREPE SNICKERS</div></div><div class="item-price">14.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CREPE NUTELLA BANANE</div></div><div class="item-price">14.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">CREPE FERRERO</div></div><div class="item-price">15.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe kinder</div><div class="item-description">Nutella, chocolat blanc, kinder</div></div><div class="item-price">15.500</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">Crêpe nutella suprême</div><div class="item-description">Nutella, noisettes, ferrero rocher, beurre de noisette</div></div><div class="item-price">16.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe cheesecake</div><div class="item-description">Nutella, mascarpone, préparation cheesecake, c...</div></div><div class="item-price">16.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe milka & noisettes</div><div class="item-description">Tablette milka, noisettes, nutella, beurre de noisette</div></div><div class="item-price">17.500</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Crêpe pistashio</div><div class="item-description">Nutella, beurre de pistache, pistache concassé</div></div><div class="item-price">18.000</div></div>
+                <div class="menu-item special-item"><div class="item-info"><div class="item-name">CREPE HASHTAG</div></div><div class="item-price">19.000</div></div>
+
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>HASHTAG</h3>
+            <p class="hours">Ouvert tous les jours</p>
+            <p class="hours">Livraison à domicile sur demande 🚗</p>
+            <div class="contact-info">
+                <div class="contact-item">📞 +216 26454417</div>
+                <div class="contact-item">
+                    📍 Adresse du restaurant :
+                    <a style="color: aliceblue;" href="https://maps.app.goo.gl/HeT8PnU435b8o2hN6" target="_blank">cliquer ici</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <p>Suivez-nous sur les réseaux sociaux</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/hashtagcaferesto" target="_blank" class="social-link" title="Facebook">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width:28px; vertical-align:middle;"> 
+                        <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                    </a>
+                    <p></p>
+                    <a href="https://www.instagram.com/hashtag_cafe_resto_gafsa/" target="_blank" class="social-link" title="Instagram">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" style="width:28px; vertical-align:middle;"> 
+                        <span style="color: #A8FFBF; margin-left: 6px;">Hashtag Café Resto</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
